@@ -25,4 +25,5 @@ int main()
     {
         printf("%d\t", temp[i]);
     } 
+    return 1;
 }
