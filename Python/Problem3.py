@@ -24,7 +24,7 @@ def moveZeros(nums):
     for i in range(n):
         if nums[i] != 0: #We keep the index of non-zero elements
             nums[i], nums[first_zero_index] = nums[first_zero_index], nums[i] 
-            first_zero_index += 1 #Increment the postion of the last zero
+            first_zero_index += 1 #Increment the postion of the first zero
 
 def main():
     nums = [0,1,0,3,12]
